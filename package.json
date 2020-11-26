@@ -2,7 +2,7 @@
   "name": "honkit-plugin-elasticsearch",
   "description": "GitBook search plugin for Elasticsearch",
   "main": "index.js",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "engines": {
     "gitbook": "*"
   },
