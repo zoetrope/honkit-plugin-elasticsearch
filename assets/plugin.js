@@ -34,10 +34,10 @@ require([
           method: "POST",
           body: JSON.stringify({
             "query": {
-              "multi_match": {
+              "query_string": {
                 "fields": ["title", "keywords", "body"],
                 "query": q,
-                "operator": "and"
+                "default_operator": "and"
               },
             },
             "highlight": {
