@@ -34,7 +34,7 @@ require([
           method: "POST",
           body: JSON.stringify({
             "query": {
-              "query_string": {
+              "simple_query_string": {
                 "fields": ["title", "keywords", "body"],
                 "query": q,
                 "default_operator": "and"
